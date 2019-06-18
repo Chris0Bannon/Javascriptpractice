@@ -1,0 +1,18 @@
+let stringVar = "I like" + "Dogs";  // the + symnol can concatenate strings together.;
+
+let numVar = 3+9; // or the + symbol can also be used or addition.;
+
+let plants = 12;  //3new plants;
+
+plants = 15;
+
+plants = plants + 3;
+
+plants += 3;
+
+plants -= 2;
+
+//increment is to add 1.;
+
+plants ++;
+ plants--;
