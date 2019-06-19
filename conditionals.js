@@ -1,11 +1,11 @@
 console.log( 'js' );
 
 // road trip planner;
-let seatsInCar = 7;
+let seatsInCar = 4;
 let passengers = 5;
 let infants = 1;
 let infantSeats = 1;
-let fullTank = false;
+let fullTank = true;
 
 //check that there is enough room for everyone in the car;
 
@@ -24,14 +24,21 @@ else {
 
 
 // doggy daycare planner;
-let dogsNeeded = 5
-let dogsInHouse = 5
-let leashesOwned = 4
-let leashesNeeded = 4
+let dogsNeeded = 5;
+let dogsInHouse = 4;
+let leashesOwned = 4;
+let leashesNeeded = 4;
+let enoughFood = true;
 
 //check that we have enough dogs and supplies;
 if (dogsInHouse >= dogsNeeded && leashesOwned >= leashesNeeded) {
   console.log( 'You have enough dogs and dog things' );
+if (enoughFood) {
+  console.log( 'Youre ready for puppy time');
+}
+else {
+  console.log( 'You gotta get some more FOOOD first!');
+}
 }
 
 else {
